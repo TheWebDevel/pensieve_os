@@ -5,12 +5,4 @@ authors = ["TheWebDevel <sathish@skcript.com>"]
 edition = "2018"
 
 [dependencies]
-
-# The profile used for `cargo build`
-[profile.dev]
-panic = "abort" # disable stack unwinding on panic
-
-
-# The profile used for `cargo build --release`
-[profile.release]
-panic = "abort" # disable stack unwinding on panic
+bootloader = "0.8.0"
